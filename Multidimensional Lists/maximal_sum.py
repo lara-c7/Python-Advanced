@@ -20,3 +20,6 @@ for row in range(rows - 2):
 print(f"Sum = {max_sum}")
 sub_matrix = [matrix[r][max_col:max_col + 3] for r in range(max_row, max_row + 3)]
 [print(*row) for row in sub_matrix]
+
+# for row in [[matrix[r][c] for c in range(high_c, high_c + 3)] for r in range(high_r, high_r + 3)]:
+    # print(*row)
