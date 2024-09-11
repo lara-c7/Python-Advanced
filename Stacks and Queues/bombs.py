@@ -15,7 +15,7 @@ while bomb_effects and bomb_casings:
     else:
         bomb_casings[-1] -= 5
     for num in bombs_made.values():
-        if num != 3:
+        if num < 3:
             break
     else:
         done = True
@@ -35,3 +35,5 @@ else:
     print("Bomb Casings: empty")
 for bomb, cnt in sorted(bombs_made.items()):
     print(f"{bomb}: {cnt}")
+
+
