@@ -16,4 +16,4 @@ if not cups_capacities:
     print(f"Bottles: {' '.join(str(x) for x in bottles_capacities)}")
 if not bottles_capacities:
     print(f"Cups: {' '.join(str(x) for x in cups_capacities)}")
-print(f"Wasted litters of water: {wasted_water}")
+print(f"Wasted litters of water: {wasted_water}"
